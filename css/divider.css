@@ -1,0 +1,109 @@
+.wpcomment-divider-with-txt {
+	display: flex;
+	font-size: 1rem !important;
+}
+
+.wpcomment-divider-with-txt:before,
+.wpcomment-divider-with-txt:after {
+	content: "";
+	flex: 1;
+}
+
+.wpcomment-divider-line {
+	align-items: center;
+	margin: 1em -1em;
+	width: auto !important;
+}
+
+.wpcomment-divider-line:before,
+.wpcomment-divider-line:after {
+	margin: 0 1em;
+}
+
+.wpcomment-divider-gradient {
+	align-items: stretch;
+	margin: 1em 0;
+	height: 2em;
+	line-height: 2em;
+	color: white !important;
+	background: black;
+}
+
+.wpcomment-divider-gradient:before {
+	background: linear-gradient(to right, white, black);
+}
+
+.wpcomment-divider-gradient:after {
+	background: linear-gradient(to left, white, black);
+}
+
+.wpcomment-divider-donotcross {
+	overflow: hidden;
+	align-items: center;
+	background: #ffd500;
+	/*padding-top: 11px;*/
+	color: black !important;
+	height: 2em;
+	line-height: 2em !important;
+}
+
+.wpcomment-divider-donotcross:before,
+.wpcomment-divider-donotcross:after {
+	background: white;
+	padding: 15px 0;
+	height: 0;
+	transform: rotate(45deg);
+}
+
+.wpcomment-divider-easy-shadow {
+	display: table;
+	font-size: 24px;
+	text-align: center;
+	margin: 2px auto;
+}
+
+.wpcomment-divider-easy-shadow span {
+	display: table-cell;
+	position: relative;
+}
+
+.wpcomment-divider-easy-shadow span:first-child,
+.wpcomment-divider-easy-shadow span:last-child {
+	width: 50%;
+	top: 13px;
+	-moz-background-size: 100% 2px;
+	background-size: 100% 2px;
+	background-position: 0 0, 0 100%;
+	background-repeat: no-repeat;
+}
+
+.wpcomment-divider-easy-shadow span:nth-child(2) {
+	color: #000;
+	padding: 0px 5px;
+	width: auto;
+	white-space: nowrap;
+	line-height: 30px;
+}
+
+.wpcomment-divider-fancy-heading {
+	font-size: 1.5em !important;
+	letter-spacing: 0.08em;
+	font-weight: 300 !important;
+	color: #F60 !important;
+	text-shadow: 0 1px 1px #FFFFFF;
+	text-transform: uppercase;
+}
+
+.wpcomment-divider-fancy-line {
+	border-bottom: 1px solid #e8e6e6;
+	background-color: #DADADA;
+	/*height: 1px;*/
+	margin-bottom: 10px;
+}
+
+.wpcomment-divider-fancy-line span {
+	display: block;
+	width: 50px;
+	height: 1px;
+	background-color: #F60;
+}

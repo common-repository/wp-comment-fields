@@ -1,0 +1,3 @@
+Type: image input
+// Need to remove wpcomment-input from outer div of image
+// add wpcomment-input class to hidden input
